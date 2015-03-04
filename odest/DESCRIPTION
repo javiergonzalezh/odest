@@ -1,0 +1,14 @@
+Package: odest
+Type: Package
+Title: Reproducing kernel Hilbert Space based estimation of parameters
+        of systems of Ordinary Differential equations
+Version: 1.0
+Date: 2013-05-14
+Author: Ivan Vujacic <i.vujacic@rug.nl>, Javier Gonzalez <j.gonzalez.hernandez@rug.nl>, Ernst Wit <e.c.witg@rug.nl>
+Depends: R (>= 2.10.1), expm, pspline, magic, MASS, corpcor, gplots,
+        deSolve
+Maintainer: Ivan Vujacic <i.vujacic@rug.nl>
+Description: These functions implement RKHS based estimation of parameters of ODEs. They provide parameter estimates, confidence intervals and estimates of state variables.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2013-05-17 16:47:23 UTC; Ernst
