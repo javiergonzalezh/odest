@@ -7,6 +7,13 @@ rkhs.estimation
 \description{
 RKHS estimation of ODE system
 }
+
+\source{
+Javier Gonzalez, Ivan Vujacic and Ernst Wit. Reproducing kernel Hilbert space based estimation of systems of ordinary differential equations. Pattern Recognition Letters, 45(1), 26--32, 2014.
+
+Javier Gonzalez, Ivan Vujacic and Ernst Wit. Inferring latent gene regulatory network kinetics. Statistical Applications in Genetics and Molecular Biology. Vol. 12, Issue 1, pp. 109--127, 2013.
+}
+
 \usage{
 rkhs(data, f, coef, times, lambda, par, sigma = NULL,varnames,ODEmod)
 }

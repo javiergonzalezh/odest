@@ -1,14 +1,15 @@
-\name{oderkhs-package}
-\alias{oderkhs-package}
-\alias{oderkhs}
+\name{odest-package}
+\alias{odest-package}
+\alias{odest}
 \docType{package}
 \title{
 Reproducing Kernel Hilbert Space based estimation of Systems of Ordinary Differential Equations
 }
 \description{
-These functions implement RKHS based estimation for
-Systems of Ordinary Differential Equations. They
-provide estimate of parameters, confidence intervals and estimates of state variables.
+These functions implement RKHS based estimation for Systems of Ordinary Differential Equations. They
+provide estimate of parameters, confidence intervals and estimates of state variables. 
+
+
 }
 \details{
 \tabular{ll}{
@@ -24,7 +25,7 @@ LazyLoad: \tab yes\cr
 \author{
 Ivan Vujacic, Javier Gonzalez, Ernst Wit 
 
-Maintainer: Ivan Vujacic <i.vujacic@rug.nl>, 
+Maintainer: Ivan Vujacic <i.vujacic@rug.nl> and Javier González <j.h.gonzalez@sheffield.ac.uk>
 
 }
 
